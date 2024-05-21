@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+
+    line-height: 1.6;
+}
+
+.top-header{
+    background-color: #0d369f;
+    padding: 5px 30px !important;
+}
+
+.top-header i.nav-link{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.top-header .top-header-right .social_items{
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.top-header .top-header-right .social_items i{
+    color: white !important;
+}
+
+.top-header .top-header-right .social_items:hover i{
+    color: rgb(244, 95, 120) !important;
+    cursor: pointer;
+}
+
+.bottom-header{
+    padding: 15px 30px !important;
+}
+
+.bottom-header .bottom-header-left{
+    font-weight: 600;
+    font-size: 26px;
+    color: #0d369f;
+}
+
+.bottom-header .bottom-header-right{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bottom-header .bottom-header-right li{
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.bottom-header .bottom-header-right a:hover,.bottom-header .bottom-header-right button i:hover{
+    color: orange !important;
+}
+
+.bottom-header .bottom-header-right li a{
+    text-transform: uppercase;
+}
+
+.bottom-header .bottom-header-right .page{
+    position: relative;
+}
+
+.bottom-header .bottom-header-right .page .nav-link{
+    color: orange !important;
+}
+
+.bottom-header .bottom-header-right .page ul{
+    position: absolute;
+    transform: translate3d(-50px, 43.5px, 0px) !important;
+}
+
+.bottom-header .bottom-header-right .page ul li a{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.bottom-header .bottom-header-right .page ul li a.landing-page{
+    color: orange;
+}
+
+.bottom-header .bottom-header-right .search-keyword{
+    background: transparent;
+    border-radius: 30px;
+    border: 2px solid #eee;
+    font-size: 15px;
+    padding: 10px 35px 10px 20px;
+}
+
+.bottom-header .bottom-header-right button:focus{
+    border: 2px solid #eee;
+}
+
+.bottom-header .bottom-header-right ._form_search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px 20px 0 0;
+}
+
+.bottom-header .bottom-header-right button{
+    border: none;
+    background: transparent;
+    color: #0d369f;
+}
+
+@media only screen and (max-width: 991px) {
+    .top-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header.main-header {
+        height: auto;
+    }
+}
