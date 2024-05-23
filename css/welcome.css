@@ -1,0 +1,62 @@
+.welcome{
+    margin-top: 300px;
+}
+
+.welcome .welcome_title{
+    margin: 100px auto;
+    position: relative;
+}
+
+.welcome .welcome_title h1::before{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
+}
+
+.welcome .welcome_title h1::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -25px;
+    left: 48%;
+}
+
+.welcome .welcome_content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.welcome .welcome_content .welcome_container{
+    text-align: center;
+    
+}
+
+
+.welcome .welcome_content .welcome_container .welcome_items{
+    margin-top: 20px;
+}
+
+
+.welcome .welcome_content .welcome_container i{
+    line-height: 50px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    color: rgb(64, 21, 205);
+    background-color: rgba(115, 115, 225, 0.706);
+    text-align: center;
+}
+
+.welcome .welcome_content .welcome_container h2{
+    font-size: 30px;
+    font-weight: bold !important;
+}
+

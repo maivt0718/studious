@@ -1,0 +1,29 @@
+.features{
+    position: relative;
+}
+
+.features .features_container{
+    width: 100% !important;
+    margin: 0 auto;
+    justify-content: center;
+    position: absolute;
+    top: -50px;
+    left: auto; 
+}
+
+.features .features_items{
+    color: white;
+    text-align: center;
+    width: 330px;
+    border-radius: 10px;
+}
+
+.features .features_items i{
+    font-size: 50px;
+    margin: 50px auto 20px auto !important;
+}
+
+.features .features_items h6{
+    margin: 10px auto 50px auto;
+    font-size: 35px;
+}
