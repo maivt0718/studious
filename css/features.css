@@ -7,7 +7,7 @@
     margin: 0 auto;
     justify-content: center;
     position: absolute;
-    top: -50px;
+    top: -100px;
     left: auto; 
 }
 
@@ -16,6 +16,7 @@
     text-align: center;
     width: 330px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .features .features_items i{

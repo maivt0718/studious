@@ -1,0 +1,24 @@
+.title{
+    margin: 100px auto;
+    position: relative;
+}
+
+.title h1::before{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -15px;
+    left: 45%;
+}
+
+.title h1::after{
+    content: "";
+    height: 2px;
+    width: 100px;
+    background-color: black;
+    position: absolute;
+    bottom: -25px;
+    left: 48%;
+}

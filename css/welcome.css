@@ -2,31 +2,6 @@
     margin-top: 300px;
 }
 
-.welcome .welcome_title{
-    margin: 100px auto;
-    position: relative;
-}
-
-.welcome .welcome_title h1::before{
-    content: "";
-    height: 2px;
-    width: 100px;
-    background-color: black;
-    position: absolute;
-    bottom: -15px;
-    left: 45%;
-}
-
-.welcome .welcome_title h1::after{
-    content: "";
-    height: 2px;
-    width: 100px;
-    background-color: black;
-    position: absolute;
-    bottom: -25px;
-    left: 48%;
-}
-
 .welcome .welcome_content{
     width: 90%;
     margin: 0 auto;
