@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./css/general/common.css">
     <link rel="stylesheet" href="./css/home/headerfooterbacktotop.css" />
     <link rel="stylesheet" href="./css/home/carousel.css">
@@ -21,6 +22,7 @@
     <link rel="stylesheet" href="./css/home/strength.css">
     <link rel="stylesheet" href="./css/home/feedback.css">
     <link rel="stylesheet" href="./css/home/instructions.css">
+    <link rel="stylesheet" href="./css/home/contact.css">
 </head>
 
 <body>
@@ -371,6 +373,11 @@
                     <div class="instruction_img">
                         <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team2.jpg"
                             alt="" srcset="">
+                        <div class="d-flex instruction_overlay">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                        </div>
                     </div>
                     <div class="instruction_author">
                         <h4>Olive Yew</h4>
@@ -381,6 +388,11 @@
                     <div class="instruction_img">
                         <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team3.jpg"
                             alt="" srcset="">
+                        <div class="d-flex instruction_overlay">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                        </div>
                     </div>
                     <div class="instruction_author">
                         <h4>Olive Yew</h4>
@@ -391,6 +403,11 @@
                     <div class="instruction_img">
                         <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/team4.jpg"
                             alt="" srcset="">
+                        <div class="d-flex instruction_overlay">
+                            <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></i></a>
+                            <a href="https://google.com"><i class="fa-brands fa-google-plus-g"></i></i></a>
+                        </div>
                     </div>
                     <div class="instruction_author">
                         <h4>Olive Yew</h4>
@@ -398,12 +415,24 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </section>
-    <section style="height: 50vh;"></section>
+    <section class="home_contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-6 contact_left">
+                    <img src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/image.png" alt="" srcset="">
+                </div>
+                <div class="col-12 col-sm-12 col-lg-6 contact_right">
+                    <h1>Not Sure Where to Begin?
+                        Contact Now, We will Help you</h1>
+                    <p style="color: gray;">Consectetur adipiscing elit. Aliquam sit amet efficitur tortor.Uspendisse efficitur orci urna. In et augue ornare, tempor massa in, luctus sapien.</p>
+                    <button type="submit">contact us</button>
+                </div>
+            </div>
+        </div>
+        
+    </section>
 
     <footer>
         <div class="container ">
@@ -541,10 +570,11 @@
     <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
     <script src="assets/js/main.js"></script>
     <script>
-        $(".counter").counterUp({});
-        Fancybox.bind("[data-fancybox]", {
-            // Your custom options
+        $(".counter").counterUp({
+            'time': 2000,
+            'delay': 10
         });
+       
     </script>
 </body>
 

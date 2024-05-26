@@ -110,7 +110,9 @@
     padding-left: 10px;
     padding-right: auto;
   }
-  footer .container .studiousFooter > div:last-child{}
+  footer .footer_newletter .form_input button{
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -251,6 +253,14 @@
   .instruction_content .instruction_items .instruction_img img {
     height: 100% !important;
   }
+
+  .home_contact{
+    margin: 150px auto 250px auto !important;
+  }
+  .home_contact .contact_left{
+    width: 100% !important;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -317,8 +327,8 @@
   }
 
   footer .container .studiousFooter {
-    padding-left: 10px;
-    padding-top: 250px;
+    padding-left: 10px !important;
+    padding-top: 250px !important;
   }
 
   footer .container .studiousFooter .nav-link {

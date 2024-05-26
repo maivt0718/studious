@@ -1,0 +1,38 @@
+.home_contact{
+    margin: 0 100px;
+    margin-bottom: 300px;
+}
+
+.home_contact .row{
+    align-items: center;
+}
+
+.home_contact .contact_left{
+    width: 40%;
+    height: 60%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.home_contact .contact_left img{
+    object-fit: cover;
+    object-position: center;
+    width: 80%;
+    height: 80%;
+}
+
+.home_contact .contact_right{
+    margin: 50px auto;
+}
+
+.home_contact .contact_right button{
+    width: 150px;
+    height: 55px;
+    background-color: rgba(236, 107, 14, 0.5);
+    border-radius: 10px;
+    border: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+}
+

@@ -40,13 +40,30 @@
     left: 0;
     justify-content: center;
     width: 100%;
-    height: 15%;
-    background-color: grey;
+    height: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    transition: all 0.5s;
 }
 
 .instruction_content .instruction_items .instruction_img .instruction_overlay a{
-    width: 33px;
-    height: 33px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    margin: auto 0;
+    margin-right: 10px;
 }
+
+.instruction_content .instruction_items:hover .instruction_overlay, .instruction_content .instruction_items:hover h4
+{   
+    height: 20%;
+    color: orange;
+}
+
+
+
 
 
