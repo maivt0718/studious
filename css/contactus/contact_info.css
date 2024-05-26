@@ -1,0 +1,47 @@
+.contact_info{
+    margin: 150px auto;
+    width: 100%;
+}
+
+.contact_info .contact_title{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 auto 30px auto;
+}
+
+.contact_info .contact_outer{
+    margin: 0 100px;
+}
+
+.contact_info .contact_outer .nav{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact_info .contact_outer .nav-item{
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.contact_info .contact_outer .nav-item i {
+    color: rgba(238, 80, 7, 0.8);
+}
+
+.contact_info .contact_outer .nav-item .nav-link{
+    color: rgba(17, 14, 14, 0.5);
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.contact_info .contact_outer .nav-item a:hover{
+    color: rgba(238, 80, 7, 0.8);
+}
+
+.contact_info .contact_outer .contact-right iframe{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+

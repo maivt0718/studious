@@ -1,0 +1,36 @@
+.contactus-carousel #carouselExampleIndicators{
+    height: 400px ;
+}
+
+.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner,.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner .carousel-item{
+    height: 100% !important;
+    display: block;
+}
+
+.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 80% 25%;
+}
+
+.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner .carousel-item .carousel-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    color: rgba(255, 255, 255, 0.609);
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+
+.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner .carousel-item .carousel-caption h3{
+    color: white;
+}
+
+.contactus-carousel #carouselExampleIndicators .contactus-carousel-inner .carousel-item .carousel-caption a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.609);
+    margin-right: 5px;
+}
+

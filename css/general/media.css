@@ -8,8 +8,8 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .carousel {
-    height: 1000px;
+  .home_carousel {
+    height: 800px;
   }
 
   .carousel .carousel-inner,
@@ -106,12 +106,20 @@
     width: 23%;
     max-width: 25%;
   }
-  footer .container .studiousFooter{
+  footer .container .studiousFooter {
     padding-left: 10px;
     padding-right: auto;
   }
-  footer .footer_newletter .form_input button{
+  footer .footer_newletter .form_input button {
     width: 30%;
+  }
+
+  .contact_info .contact_outer {
+    margin: 0 10px !important;
+  }
+
+  .questions .question_content {
+    margin: 100px 30px 250px 50px !important;
   }
 }
 
@@ -129,7 +137,7 @@
   }
 
   .bottom-header {
-    background-color: transparent;
+    background-color: transparent !important;
   }
 
   .bottom-header .bottom-header-right {
@@ -254,12 +262,28 @@
     height: 100% !important;
   }
 
-  .home_contact{
-    margin: 150px auto 250px auto !important;
+  .contactus-carousel {
+    height: 450px !important;
   }
-  .home_contact .contact_left{
+
+  .contactus-carousel
+    #carouselExampleIndicators
+    .contactus-carousel-inner
+    .carousel-item
+    .carousel-caption
+    .carousel-info {
+    font-size: 14px;
+  }
+
+  .home_contact {
+    margin: 50px auto 250px auto !important;
+  }
+  .home_contact .contact_left {
     width: 100% !important;
     margin: 0 auto;
+  }
+  .questions .question_content .question_left, .questions .question_content .question_right{
+    width: 100% !important;
   }
 }
 
@@ -296,11 +320,24 @@
   }
 
   .strength .strength_number {
-    margin: 50px !important;
+    margin: 50px auto !important;
   }
 
   .strength .strength_number .strength_items {
     border: none !important;
+  }
+
+  .contact_info {
+    margin: 10px !important;
+  }
+
+  .contact_info .contact_outer {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .contact_info .contact_outer .contact-right {
+    height: 400px;
   }
 }
 
@@ -358,7 +395,7 @@
     margin-bottom: 15px;
   }
 
-  footer .container .studiousFooter{
+  footer .container .studiousFooter {
     padding-top: 200px;
   }
 
