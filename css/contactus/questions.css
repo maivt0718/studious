@@ -31,11 +31,11 @@
     color: rgba(239, 232, 232, 0.2);
     background-color: rgba(253, 246, 246, 0.554);
     padding: 20px;
+    color: black;
 }
 
 .questions .question_content .question_right .form-control:focus{
     border-color: rgba(255, 0, 0, 0.751);
-    color: black;
 }
 
 .questions .question_content .question_right #message{
