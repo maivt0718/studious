@@ -22,3 +22,7 @@
     bottom: -25px;
     left: 48%;
 }
+
+.form-control{
+    box-shadow: none !important;
+}
