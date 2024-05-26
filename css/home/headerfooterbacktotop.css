@@ -84,7 +84,7 @@ header {
 }
 
 .bottom-header .bottom-header-right .page .nav-link {
-  color: orange !important;
+  color: black;
 }
 
 .bottom-header .bottom-header-right .page ul {
@@ -287,4 +287,8 @@ footer .copyright a {
 .backtotop .cd-top--is-visible {
   visibility: visible;
   opacity: 1;
+}
+
+.homepage{
+  color: orange !important;
 }

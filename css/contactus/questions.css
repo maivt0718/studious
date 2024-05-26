@@ -35,6 +35,7 @@
 
 .questions .question_content .question_right .form-control:focus{
     border-color: rgba(255, 0, 0, 0.751);
+    color: black;
 }
 
 .questions .question_content .question_right #message{
