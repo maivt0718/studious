@@ -97,10 +97,6 @@ header {
   font-size: 15px;
 }
 
-.bottom-header .bottom-header-right .page ul li a.landing-page {
-  color: orange;
-}
-
 .bottom-header .bottom-header-right .form_container {
   background: transparent;
   border-radius: 30px;
