@@ -204,6 +204,7 @@ footer .container .studiousFooter {
   padding: 0 40px;
   padding-top: 300px;
   color: white;
+  width: 100%;
 }
 
 footer .container .studiousFooter a {
@@ -218,7 +219,19 @@ footer .container .studiousFooter ul li {
 }
 
 footer .container .studiousFooter > div {
-  padding: 0 40px;
+  padding: 0 20px;
+}
+
+footer .container .studiousFooter .nav-link ul a{
+  width: fit-content;
+}
+
+footer .container .studiousFooter > div:first-child {
+  width: 20%;
+}
+
+footer .container .studiousFooter > div:last-child{
+  width: 30%;
 }
 
 footer .container .studiousFooter .footer_about {
@@ -264,6 +277,7 @@ footer .copyright a {
   right: 30px;
   opacity: 0;
   transition: all 0.5s !important;
+  z-index: 2;
 }
 
 .backtotop:hover {

@@ -1,0 +1,52 @@
+.instruction_content{
+    margin: 150px 50px;
+}
+
+.instruction_content .row{
+    gap: 30px;
+    justify-content: center;
+}
+
+.instruction_content .instruction_items{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px !important;
+    border-radius: 5px;
+    padding: 0 !important;
+    width: 20%;
+    max-width: 25%;
+}
+
+.instruction_content .instruction_items .instruction_img{
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.instruction_content .instruction_items .instruction_img img{
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.instruction_content .instruction_items .instruction_author{
+    margin: 30px auto;
+    text-align: center;
+} 
+
+.instruction_content .instruction_items .instruction_img .instruction_overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    background-color: grey;
+}
+
+.instruction_content .instruction_items .instruction_img .instruction_overlay a{
+    width: 33px;
+    height: 33px;
+}
+
+

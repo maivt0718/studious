@@ -61,15 +61,11 @@
     margin: 10px auto 50px auto;
     font-size: 20px;
   }
-
-  
 }
 
 @media screen and (min-width: 1200px) {
-  
   .features .features_container .features_items {
     width: 20% !important;
-    
   }
 }
 
@@ -78,7 +74,7 @@
     margin-top: 20px !important;
   }
 
-  .features .features_items{
+  .features .features_items {
     margin: 20px 10px 0 0px !important;
   }
 
@@ -90,14 +86,31 @@
     justify-content: center;
   }
 
-  .home_block .home_block_container .home_block_items{
+  .home_block .home_block_container .home_block_items {
     width: 400px;
   }
 
-
-  .feedback .feedback_content .feedback_items{
+  .feedback .feedback_content .feedback_items {
     width: 280px !important;
   }
+
+  .instruction_content {
+    margin: 100px 10px !important;
+  }
+  .instruction_content .row {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .instruction_content .instruction_items {
+    width: 23%;
+    max-width: 25%;
+  }
+  footer .container .studiousFooter{
+    padding-left: 10px;
+    padding-right: auto;
+  }
+  footer .container .studiousFooter > div:last-child{}
 }
 
 @media only screen and (max-width: 992px) {
@@ -204,12 +217,12 @@
   }
 
   .carousel .carousel-item .carousel-caption button {
-    width: 250px !important;
-    height: 90px !important;
-    font-size: 20px !important;
+    width: 150px !important;
+    height: 50px !important;
+    font-size: 15px !important;
   }
   .carousel .carousel-item .carousel-caption button i {
-    font-size: 20px !important;
+    font-size: 15px !important;
   }
 
   .welcome {
@@ -222,8 +235,21 @@
     max-width: 100% !important;
   }
 
-  .feedback .feedback_content .feedback_items{
+  .feedback .feedback_content .feedback_items {
     width: 350px !important;
+  }
+
+  .instruction_content {
+    margin: 100px 50px !important;
+  }
+
+  .instruction_content .instruction_items {
+    max-width: 50% !important;
+    width: 40% !important;
+  }
+
+  .instruction_content .instruction_items .instruction_img img {
+    height: 100% !important;
   }
 }
 
@@ -259,22 +285,34 @@
     justify-content: center;
   }
 
-
-  .strength .strength_number{
+  .strength .strength_number {
     margin: 50px !important;
   }
 
-  .strength .strength_number .strength_items{
+  .strength .strength_number .strength_items {
     border: none !important;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .strength .strength_number .strength_items{
+  .strength .strength_number .strength_items {
     border: none !important;
   }
 
-  .feedback .feedback_content .feedback_items{
+  .instruction_content {
+    margin: 150px 30px !important;
+  }
+
+  .instruction_content .instruction_items {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .instruction_content .instruction_items .instruction_img img {
+    height: 100% !important;
+  }
+
+  .feedback .feedback_content .feedback_items {
     width: 100% !important;
   }
 
@@ -310,4 +348,11 @@
     margin-bottom: 15px;
   }
 
+  footer .container .studiousFooter{
+    padding-top: 200px;
+  }
+
+  footer .container .studiousFooter .nav-link {
+    width: 100% !important;
+  }
 }
