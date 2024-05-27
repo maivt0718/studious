@@ -3,6 +3,15 @@
     position: relative;
 }
 
+.home_carousel {
+    height: 800px;
+}
+
+#carouselExampleIndicators{
+    height: 100%;
+}
+
+
 .carousel .carousel-indicators{
     right: 0;
     top: 0;

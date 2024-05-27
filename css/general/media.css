@@ -8,10 +8,6 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .home_carousel {
-    height: 800px;
-  }
-
   .carousel .carousel-inner,
   .carousel .carousel-inner .carousel-item {
     height: 100%;
@@ -339,6 +335,7 @@
   .contact_info .contact_outer .contact-right {
     height: 400px;
   }
+  
 }
 
 @media screen and (max-width: 576px) {
@@ -402,4 +399,5 @@
   footer .container .studiousFooter .nav-link {
     width: 100% !important;
   }
+  
 }
