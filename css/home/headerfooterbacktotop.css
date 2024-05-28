@@ -222,14 +222,6 @@ footer .container .studiousFooter .nav-link ul a{
   width: fit-content;
 }
 
-footer .container .studiousFooter > div:first-child {
-  width: 20%;
-}
-
-footer .container .studiousFooter > div:last-child{
-  width: 30%;
-}
-
 footer .container .studiousFooter .footer_about {
   border-left: 1px solid gray;
 }

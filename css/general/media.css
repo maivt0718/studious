@@ -57,6 +57,16 @@
     margin: 10px auto 50px auto;
     font-size: 20px;
   }
+
+  footer .container .studiousFooter > div:first-child {
+    width: 20%;
+  }
+
+  footer .container .studiousFooter > div:last-child{
+    width: 30%;
+  }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -188,6 +198,10 @@
   }
   footer .container .studiousFooter .footer_about {
     border: none;
+  }
+
+  footer .container .studiousFooter {
+    padding-top: 200px;
   }
 
   .carousel {
