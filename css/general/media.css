@@ -367,6 +367,7 @@
 
   footer .container .studiousFooter .nav-link {
     padding-left: 10px !important;
+    border: none;
   }
 
   footer .container .studiousFooter .nav-link ul {
@@ -377,9 +378,6 @@
     padding-left: 0 !important;
   }
 
-  footer .container .studiousFooter .footer_about {
-    border: none;
-  }
   footer .container .footer_newletter .form_input {
     margin-top: 50px !important;
   }
