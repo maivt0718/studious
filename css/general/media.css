@@ -2,6 +2,11 @@
   .header_button_collape {
     display: none;
   }
+
+  .bottom-header {
+    background-color: white !important;
+  }
+
   .bottom-header .bottom-header-right .bottom-header-right-nav {
     display: flex;
     justify-content: end;
@@ -143,7 +148,7 @@
   }
 
   .bottom-header {
-    background-color: transparent !important;
+    background-color: transparent;
   }
 
   .bottom-header .bottom-header-right {
@@ -187,8 +192,8 @@
   }
 
   header .bottom-header .header_button_collape {
-    background-color: #0d369f;
-    color: white;
+    background-color: #0d369f !important;
+    color: white !important;
     width: 50px;
     margin-left: 10px;
   }

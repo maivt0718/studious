@@ -26,3 +26,12 @@
 .form-control{
     box-shadow: none !important;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white !important;
+    z-index: 6;
+}
+
