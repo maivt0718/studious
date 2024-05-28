@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+ul {
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -403,6 +411,16 @@ footer .footer-sub {
     color: #cecece;
     margin: 0 0 10px 0;
     display: block;
+}
+
+.sub-two-right ul li a:before {
+    display: inline-block;
+    font-family: 'FontAwesome';
+    content: "\f101";
+    position: absolute;
+    left: 0px;
+    font-size: 13px;
+    color: #ffffff;
 }
 
 .sub-one-left span {
