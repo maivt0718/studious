@@ -204,6 +204,10 @@
     padding-top: 200px;
   }
 
+  footer .container .studiousFooter .nav-link {
+    border: none !important;
+  }
+
   .carousel {
     height: 700px;
   }
@@ -381,7 +385,6 @@
 
   footer .container .studiousFooter .nav-link {
     padding-left: 10px !important;
-    border: none !important;
   }
 
   footer .container .studiousFooter .nav-link ul {
