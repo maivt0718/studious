@@ -7,6 +7,8 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container-fluid {
@@ -94,7 +96,6 @@ header {
     transition: all 0.4s ease 0s;
     display: grid;
     align-items: center;
-    width: 100%;
 }
 
 .fixed-top {
@@ -117,7 +118,7 @@ header.main-header {
 header.nav-fixed {
     padding: 0px;
     border-bottom: none;
-    z-index: 999 !important;
+    z-index: 999;
     background-color: #ffffff;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
     height: 70px;
@@ -315,6 +316,186 @@ nav button.search-btn {
     border-radius: 0.25rem;
 }
 
+/* FOOTER */
+footer .footer-sub {
+    padding: 80px 0;
+    background: #060e1f;
+}
+
+.subscribe {
+    padding: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #ffffff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -60px;
+    box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
+}
+
+.footer-subscribe h4 {
+    font-size: 35px;
+    line-height: 40px;
+    color: #060606;
+    font-weight: 600;
+}
+
+.footer-subscribe p {
+    font-size: 15px;
+    color: #707070;
+    letter-spacing: 1px;
+}
+
+.enter-email form {
+    display: flex;
+}
+
+.enter-email form input {
+    background: transparent;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    color: #060606;
+    width: 100%;
+    border-radius: 8px 0px 0px 8px;
+    height: 55px;
+    border: 1px solid #eeeeee;
+}
+
+.enter-email form button {
+    background: #0d369f;
+    border: none;
+    color: #fff;
+    padding: 16px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 0 8px 8px 0;
+}
+
+.studious-footer {
+    margin-top: 120px;
+}
+
+.sub-two-right h6,
+.sub-one-left h6 {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.sub-two-right ul li {
+    list-style: none;
+}
+
+.sub-two-right ul li a {
+    position: relative;
+    padding-left: 14px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+.sub-one-left span {
+    font-size: 18px;
+    color: #ffffff;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 25px;
+    text-align: center;
+}
+
+.sub-one-left a {
+    text-decoration: none;
+    color: #cecece;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.sub-one-left p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+}
+
+.sub-one-left div.href1,
+.sub-one-left div.href2,
+.sub-one-left p {
+    margin-top: 10px;
+}
+
+.ab-right-cont {
+    border-left: 1px solid rgb(64 73 82 / 51%);
+}
+
+.columns-2 {
+    margin-top: 1.2em;
+}
+
+ul.social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+ul.social li a {
+    color: #ffffff;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.06);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+
+ul.social li a span {
+    font-size: 15px;
+    line-height: 35px;
+}
+
+.copyright-footer {
+    background: #040a17;
+    padding: 20px 0;
+}
+
+p.copyrights {
+    font-size: 15px;
+    line-height: 20px;
+    color: #a0a0a0;
+}
+
+p.copyrights a {
+    color: #ffffff;
+}
+
+/* BACK TO TOP */
+#movetop {
+    position: fixed;
+    bottom: 90px;
+    right: 15px;
+    z-index: 9;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #0d369f;
+    border-radius: 4px;
+    padding: 0;
+}
+
 /* BLOG-POSTS  */
 /* CAROUSEL */
 #carousel {
@@ -324,9 +505,12 @@ nav button.search-btn {
     min-height: 300px;
 }
 
+.row {
+    margin-right: 0;
+}
+
 #carousel .container {
     display: block;
-    margin: 0;
     padding-top: 120px;
 }
 
@@ -343,6 +527,13 @@ nav button.search-btn {
 /* BLOG */
 #blog {
     padding-top: 96px;
+    padding-bottom: 3rem !important;
+}
+
+#blog .col-xxl-9,
+#blog .col-xxl-6,
+#blog .col-xxl-3 {
+    padding-right: 0;
 }
 
 #blog .container {
@@ -352,9 +543,7 @@ nav button.search-btn {
 }
 
 #blog .post-thumbnail {
-    width: 100%;
     display: block;
-    overflow: hidden;
 }
 
 #blog a {
@@ -408,6 +597,7 @@ ul.blogAuthorDate li i {
     font-weight: 600;
     line-height: 30px;
     color: #060606;
+    height: auto;
 }
 
 #blog .paginationWrapper ul {
@@ -547,9 +737,9 @@ ul#recentcomments li a {
     font-size: 18px;
     color: #ff6e65;
     font-weight: 600;
-    display: inline;
-    padding: 0;
-    margin: 0;
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 #archives li {
@@ -817,6 +1007,10 @@ ul#recentcomments li a {
     .search-right {
         margin-left: 1rem;
     }
+
+    .mb-lg-2 {
+        margin-bottom: 0.5rem !important;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
@@ -848,15 +1042,6 @@ ul#recentcomments li a {
         flex: 0 0 33.33333%;
         max-width: 33.33333%;
     }
-
-    .blog-content::-webkit-scrollbar {
-        display: none;
-    }
-
-    .blog-content {
-        max-height: 1405px;
-        overflow-y: scroll;
-    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -865,9 +1050,163 @@ ul#recentcomments li a {
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+@media (min-width: 1200px) {
     .container {
         margin-right: auto;
         margin-left: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .mt-md-0,
+    .my-md-0 {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 440px) {
+    .subscribe {
+        padding: 40px;
+    }
+
+    .footer-subscribe {
+        padding: 0;
+    }
+
+    .footer-subscribe h4 {
+        margin-bottom: 10px;
+    }
+
+    .enter-email form {
+        flex-wrap: wrap;
+    }
+
+    .enter-email form input {
+        border-radius: 4px;
+    }
+
+    .enter-email form button {
+        padding: 15px 30px;
+        border-radius: 4px;
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .studious-footer {
+        margin-top: 180px;
+    }
+}
+
+@media (max-width: 568px) and (min-width: 441px) {
+    .studious-footer {
+        margin-top: 100px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .subscribe {
+        top: -78px;
+    }
+
+    .footer-subscribe {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 569px) {
+    .enter-email form button {
+        width: 30%;
+    }
+
+    .studious-footer {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 790px) and (min-width: 769px) {
+    .studious-footer {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 791px) {
+    .studious-footer {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 568px) {
+    .text-txt {
+        grid-gap: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .text-txt {
+        grid-template-columns: 1fr;
+    }
+
+    .ab-right-cont {
+        border-left: none;
+    }
+}
+
+@media (max-width: 1080px) {
+    .text-txt {
+        grid-gap: 50px;
+    }
+}
+
+@media (max-width: 736px) {
+    .footer-sub {
+        padding: 40px 0 !important;
+    }
+
+    .sub-two-right h6,
+    .sub-one-left h6 {
+        margin-bottom: 10px;
+        padding-bottom: 7px;
+    }
+}
+
+@media (max-width: 568px) {
+    .footer-sub {
+        margin-top: 1em;
+    }
+}
+
+@media (max-width: 736px) and (min-width: 569px) {
+    .footer-sub {
+        margin-top: 2em;
     }
 }
