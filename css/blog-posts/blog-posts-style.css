@@ -325,7 +325,7 @@ footer .footer-sub {
 .subscribe {
     padding: 50px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 16px;
     border-radius: 10px;
     background: #ffffff;
     position: absolute;
@@ -1122,7 +1122,7 @@ ul#recentcomments li a {
     }
 
     .studious-footer {
-        margin-top: 180px;
+        margin-top: 240px;
     }
 }
 
