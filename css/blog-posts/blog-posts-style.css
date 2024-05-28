@@ -325,7 +325,7 @@ footer .footer-sub {
 .subscribe {
     padding: 50px;
     max-width: 1000px;
-    margin: 16px;
+    margin: 0 auto;
     border-radius: 10px;
     background: #ffffff;
     position: absolute;
