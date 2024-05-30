@@ -44,7 +44,7 @@ header {
 
 .bottom-header {
   padding: 15px 30px !important;
-  background-color: white;
+  background-color: transparent;
   width: 100%;
 }
 
@@ -220,14 +220,6 @@ footer .container .studiousFooter > div {
 
 footer .container .studiousFooter .nav-link ul a{
   width: fit-content;
-}
-
-footer .container .studiousFooter > div:first-child {
-  width: 20%;
-}
-
-footer .container .studiousFooter > div:last-child{
-  width: 30%;
 }
 
 footer .container .studiousFooter .footer_about {

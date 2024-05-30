@@ -10,7 +10,7 @@
     background-color: black;
     position: absolute;
     bottom: -15px;
-    left: 45%;
+    left: 47%;
 }
 
 .title h1::after{
@@ -20,9 +20,18 @@
     background-color: black;
     position: absolute;
     bottom: -25px;
-    left: 48%;
+    left: 49%;
 }
 
 .form-control{
     box-shadow: none !important;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white !important;
+    z-index: 6;
+}
+

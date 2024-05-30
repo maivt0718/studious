@@ -180,7 +180,7 @@ p.copyrights a {
 
 /* MAIN */
 #main {
-    background-image: url("/img/404-page/error.jpg");
+    background-image: url("../../img/404-page/error.jpg");
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;

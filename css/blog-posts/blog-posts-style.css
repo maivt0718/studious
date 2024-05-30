@@ -517,7 +517,7 @@ p.copyrights a {
 /* BLOG-POSTS  */
 /* CAROUSEL */
 #carousel {
-    background-image: url(/img/blog-posts/bg4.jpg);
+    background-image: url("../..//img/blog-posts/bg4.jpg");
     background-position: center;
     background-size: cover;
     min-height: 300px;
