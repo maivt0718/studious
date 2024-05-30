@@ -1032,10 +1032,6 @@ ul#recentcomments li a {
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1280px) {
-    .container {
-        display: none;
-    }
-
     header {
         height: auto;
     }
